@@ -30,7 +30,7 @@ const wise: Bank = {
     ravenue: 1.8
 }
 
-console.log(`this bank is ${wise.name}, and it originally started in ${wise.started}. Now it has ${wise.branch}, ${wise.employees}, with ravenue of ${wise.ravenue}M`)
+console.log(`this bank is ${wise.name}, and it originally started in ${wise.started}. Now it has ${wise.branch}, ${wise.employees}, with ravenue of ${wise.ravenue}`)
 
 
 //architectual patters: MVC, DI, frontendga -> MVP
