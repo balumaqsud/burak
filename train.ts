@@ -1,5 +1,5 @@
 //task -g
-const reverse = (numsArr) => {
+const reverse = (numsArr:number[]) => {
   let curr = 0;
   for (let i = 0; i < numsArr.length; i++) {
     if (curr < numsArr[i]) {
