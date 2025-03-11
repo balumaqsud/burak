@@ -1,10 +1,17 @@
-console.log("exec")
-
 //examples
 import moment from "moment";
 
-const currentTime = moment().format("YYYY MM DD")
-console.log(currentTime)
+const currTime = moment().format("YYY MM DD")
+console.log(currTime)
 
-const person: string = "oliver";
+const myName: string = "Ollobergan";
 const age: number = 24;
+
+console.log(myName)
+console.log(age)
+
+
+
+//architectual patters: MVC, DI, frontendga -> MVP
+
+//design paterns: middlewares, decorators 
