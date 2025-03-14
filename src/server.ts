@@ -15,9 +15,6 @@ mongoose.connect(process.env.MONGO_URL as string, {}).then((data)=> {
 
 
 
-
 //architectual patters: MVC, DI, frontendga -> MVP
-
 //MVC - MODEL VIEW CONTROLLER
-
 //design paterns: middlewares, decorators 
