@@ -1,8 +1,21 @@
-//taski -h
-const positive = (arr: number[]): string => {
-  return arr.filter((ele) => {return ele > 0 ? ele : null }).join("")
+// task i:
+const mostEle = (arr: number[]):number => {
+  arr.sort()
+  let count:number = 1
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] === arr[i+1]) {
+      count++
+    }
+  }
+  return count;
 }
-console.log(positive([3,5, -1, 4, 5, -33, -3, 90]))
+console.log(mostEle([2,1,3,1,1,5,4,6,7,8,9,0,1,-2,-1]))
+
+// //taski -h
+// const positive = (arr: number[]): string => {
+//   return arr.filter((ele) => {return ele > 0 ? ele : null }).join("")
+// }
+// console.log(positive([3,5, -1, 4, 5, -33, -3, 90]))
 // //task -e
 // const reverse = (s) => {
 //   return s.split("").reverse().join("");
